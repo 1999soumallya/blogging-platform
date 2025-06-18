@@ -1,0 +1,12 @@
+{
+    "name": "blogging-platform-root",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "both": "concurrently \"cd backend && yarn dev\" \"cd frontend && yarn dev\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.0"
+    }
+}
